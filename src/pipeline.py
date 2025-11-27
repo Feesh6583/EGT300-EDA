@@ -1,25 +1,35 @@
-# src/pipeline.py
 from .data_loader import load_data
 from .preprocess import preprocess_data
-from .models import build_models, train_models, evaluate_models
+from .models import get_models
+from .config import TARGET_COLUMN, TEST_SIZE, RANDOM_STATE
+
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 
 def main():
-    print("📥 Loading data...")
+    print("📥 Loading dataset...")
     df = load_data()
 
-    print("🧹 Preprocessing data...")
-    X_train, X_test, y_train, y_test, preprocessor = preprocess_data(df)
+    print("🔧 Preprocessing data...")
+    df = preprocess_data(df)
 
-    print("⚙️ Building models...")
-    pipelines = build_models(preprocessor)
+    X = df.drop(columns=[TARGET_COLUMN])
+    y = df[TARGET_COLUMN]
 
-    print("🚀 Training models...")
-    trained_pipelines = train_models(pipelines, X_train, y_train)
+    print("✂️ Splitting train/test...")
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=TEST_SIZE, random_state=RANDOM_STATE
+    )
 
-    print("📊 Evaluating models...")
-    evaluate_models(trained_pipelines, X_test, y_test)
+    models = get_models()
 
-    print("\n✅ Pipeline complete.")
+    print("🤖 Training models...")
+    for name, model in models.items():
+        model.fit(X_train, y_train)
+        preds = model.predict(X_test)
+        acc = accuracy_score(y_test, preds)
+
+        print(f"📊 {name} Accuracy: {acc:.4f}")
 
 if __name__ == "__main__":
     main()

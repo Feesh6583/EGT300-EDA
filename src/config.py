@@ -1,3 +1,7 @@
-# src/config.py
-DATA_PATH = "data/bmarket.db"
-TARGET_COL = "Subscription Status"
+DB_PATH = "data/bmarket_clean.db"
+
+# Your target variable
+TARGET_COLUMN = "SubBin"
+
+TEST_SIZE = 0.2
+RANDOM_STATE = 42
