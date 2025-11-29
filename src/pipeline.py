@@ -1,9 +1,9 @@
+# src/pipeline.py
 from .data_loader import load_data
 from .preprocessing import preprocess
 from .train import train_and_evaluate
+from .config import PROCESSED_DIR
 import os
-import pandas as pd
-from .config import DB_PATH
 
 def main():
     print("📥 Loading dataset...")
@@ -12,18 +12,22 @@ def main():
     print("🔧 Preprocessing data...")
     X_train, X_test, y_train, y_test, preprocessor = preprocess(df)
 
-    # Save preprocessed datasets
-    os.makedirs(os.path.join(os.path.dirname(DB_PATH), "processed"), exist_ok=True)
-    X_train.to_csv("data/processed/X_train.csv", index=False)
-    X_test.to_csv("data/processed/X_test.csv", index=False)
-    y_train.to_csv("data/processed/y_train.csv", index=False)
-    y_test.to_csv("data/processed/y_test.csv", index=False)
-    print("💾 Preprocessed datasets saved in data/processed/")
+    # Save processed data as CSVs
+    os.makedirs(PROCESSED_DIR, exist_ok=True)
+    X_train.to_csv(os.path.join(PROCESSED_DIR, "X_train.csv"), index=False)
+    X_test.to_csv(os.path.join(PROCESSED_DIR, "X_test.csv"), index=False)
+    y_train.to_csv(os.path.join(PROCESSED_DIR, "y_train.csv"), index=False)
+    y_test.to_csv(os.path.join(PROCESSED_DIR, "y_test.csv"), index=False)
+    print(f"💾 Preprocessed data saved to {PROCESSED_DIR}")
 
-    print("🤖 Training models...")
-    train_and_evaluate(preprocessor, X_train, X_test, y_train, y_test)
+    print("🤖 Training & evaluating models...")
+    results = train_and_evaluate(preprocessor, X_train, X_test, y_train, y_test)
 
-    print("\n✅ Pipeline complete.")
+    # Save results summary
+    import json
+    with open(os.path.join(PROCESSED_DIR, "model_results.json"), "w") as f:
+        json.dump(results, f, indent=2)
+    print("💾 Results summary saved.")
 
 if __name__ == "__main__":
     main()
