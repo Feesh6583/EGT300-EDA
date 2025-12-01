@@ -1,0 +1,48 @@
+2025-12-01 10:00:51,726 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-12-01 10:00:53,614 - kedro.framework.project - WARNING - No 'settings.py' found, defaults will be used.
+2025-12-01 10:00:53,804 - kedro.framework.session.session - INFO - Kedro project EDA Project
+2025-12-01 10:00:53,947 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-12-01 10:08:13,073 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-12-01 10:08:13,696 - kedro.framework.project - WARNING - No 'settings.py' found, defaults will be used.
+2025-12-01 10:08:13,855 - kedro.framework.session.session - INFO - Kedro project EDA Project
+2025-12-01 10:08:13,944 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-12-01 10:16:30,506 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-12-01 10:16:31,167 - kedro.framework.project - WARNING - No 'settings.py' found, defaults will be used.
+2025-12-01 10:16:31,381 - kedro.framework.session.session - INFO - Kedro project EDA Project
+2025-12-01 10:16:35,330 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-12-01 10:18:20,257 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-12-01 10:18:20,875 - kedro.framework.project - WARNING - No 'settings.py' found, defaults will be used.
+2025-12-01 10:18:21,032 - kedro.framework.session.session - INFO - Kedro project EDA Project
+2025-12-01 10:18:33,666 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-12-01 10:21:19,929 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-12-01 10:21:20,490 - kedro.framework.project - WARNING - No 'settings.py' found, defaults will be used.
+2025-12-01 10:21:20,705 - kedro.framework.session.session - INFO - Kedro project EDA Project
+2025-12-01 10:21:23,181 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-12-01 10:21:24,707 - py.warnings - WARNING - C:\Users\yujie\AppData\Local\Programs\Python\Python313\Lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'pandas.CSVDataSet'.
+  warnings.warn(
+
+2025-12-01 10:23:50,057 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-12-01 10:23:51,075 - kedro.framework.project - WARNING - No 'settings.py' found, defaults will be used.
+2025-12-01 10:23:51,251 - kedro.framework.session.session - INFO - Kedro project EDA Project
+2025-12-01 10:24:05,994 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-12-01 10:25:25,375 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-12-01 10:25:25,951 - kedro.framework.project - WARNING - No 'settings.py' found, defaults will be used.
+2025-12-01 10:25:26,075 - kedro.framework.session.session - INFO - Kedro project EDA Project
+2025-12-01 10:25:28,390 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-12-01 10:25:29,912 - py.warnings - WARNING - c:\Users\yujie\EDA Project\.venv\Lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'kedro.extras.datasets.pandas.CSVDataSet'.
+  warnings.warn(
+
+2025-12-01 10:29:22,375 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-12-01 10:29:23,085 - kedro.framework.project - WARNING - No 'settings.py' found, defaults will be used.
+2025-12-01 10:29:23,248 - kedro.framework.session.session - INFO - Kedro project EDA Project
+2025-12-01 10:29:27,452 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-12-01 10:29:28,895 - py.warnings - WARNING - c:\Users\yujie\EDA Project\.venv\Lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'kedro.extras.datasets.pandas.CSVDataSet'.
+  warnings.warn(
+
+2025-12-01 10:29:54,298 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-12-01 10:29:54,922 - kedro.framework.project - WARNING - No 'settings.py' found, defaults will be used.
+2025-12-01 10:29:55,075 - kedro.framework.session.session - INFO - Kedro project EDA Project
+2025-12-01 10:29:57,945 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. To opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. To hide this message, explicitly grant or deny consent. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-12-01 10:29:59,407 - py.warnings - WARNING - c:\Users\yujie\EDA Project\.venv\Lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'kedro.extras.datasets.pandas.CSVDataSet'.
+  warnings.warn(
+

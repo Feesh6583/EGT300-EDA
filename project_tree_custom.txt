@@ -1,0 +1,27 @@
+EDA Project/
+├─ src/
+│  ├─ pipeline.py
+│  ├─ config.py
+│  ├─ data_loader.py
+│  ├─ preprocessing.py
+│  ├─ train.py
+│  └─ models.py
+├─ data/
+│  ├─ bmarket_clean_final.db
+│  └─ processed/
+│     ├─ X_train.csv
+│     ├─ X_test.csv
+│     ├─ y_train.csv
+│     ├─ y_test.csv
+│     └─ model_results.json
+├─ models/
+│  └─ *.joblib
+├─ reports/
+│  ├─ confusion_*.png
+│  └─ roc_*.png
+├─ Dockerfile
+├─ docker-compose.yml
+├─ requirements.txt
+├─ run.sh
+├─ README.md
+└─ eda.ipynb   ← interactive notebook for EDA

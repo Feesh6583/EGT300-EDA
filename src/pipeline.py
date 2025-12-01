@@ -1,4 +1,4 @@
-# src/pipeline.py
+# src/eda_pipeline/pipeline.py
 from .data_loader import load_data
 from .preprocessing import preprocess
 from .train import train_and_evaluate

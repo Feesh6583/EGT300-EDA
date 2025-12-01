@@ -1,0 +1,26 @@
+# conf/base/catalog.yml
+
+raw_data:
+  type: pandas.SQLTableDataSet
+  table_name: bank_marketing_clean
+  credentials: db_credentials
+
+X_train:
+  type: pandas.CSVDataSet
+  filepath: data/processed/X_train.csv
+
+X_test:
+  type: pandas.CSVDataSet
+  filepath: data/processed/X_test.csv
+
+y_train:
+  type: pandas.CSVDataSet
+  filepath: data/processed/y_train.csv
+
+y_test:
+  type: pandas.CSVDataSet
+  filepath: data/processed/y_test.csv
+
+model_results:
+  type: pandas.JSONDataSet
+  filepath: data/processed/model_results.json

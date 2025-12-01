@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  ml_pipeline:
+    build: .
+    container_name: eda_ml_pipeline
+    command: python -m src.pipeline

@@ -1,4 +1,4 @@
-# src/models.py
+# src/eda_pipeline/models.py
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.pipeline import Pipeline

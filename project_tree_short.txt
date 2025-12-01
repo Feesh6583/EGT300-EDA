@@ -1,0 +1,24 @@
+﻿EDA Project
+├─ .git
+├─ .venv
+├─ data
+│   └─ bmarket_clean_final.db
+├─ models
+│   └─ grad_boost.joblib
+├─ reports
+│   └─ confusion_grad_boost.png
+│   └─ confusion_logistic_regression.png
+│   └─ confusion_random_forest.png
+│   └─ roc_grad_boost.png
+│   └─ roc_logistic_regression.png
+│   └─ roc_random_forest.png
+├─ src
+│   └─ config.py
+│   └─ data_loader.py
+│   └─ models.py
+│   └─ pipeline.py
+│   └─ preprocessing.py
+│   └─ train.py
+└─ run.sh
+└─ requirements.txt
+└─ README.md
